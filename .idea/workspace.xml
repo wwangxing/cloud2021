@@ -1,170 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5162239-ab11-4a5e-9cdd-be06fcc2d0e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/springcloud/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/springcloud/entities/CommonResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/springcloud/entities/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/springcloud/util/JwtUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/FeignOrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/FeignPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/META-INF/cloud-consumer-feign-order80.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/FeignOrderMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/config/FeignConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/service/FeignPaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/myrule/MyselfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/config/ApplicationBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/myrule/MyselfRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/OrderMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/config/ApplicationBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/atguigu/springcloud/ConsulMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/atguigu/springcloud/config/ApplicationBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/target/classes/com/atguigu/springcloud/ConsulMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/target/classes/com/atguigu/springcloud/config/ApplicationBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/atguigu/springcloud/EurekaServerMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/com/atguigu/springcloud/EurekaServerMain7001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/atguigu/springcloud/EurekaServerMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/com/atguigu/springcloud/EurekaServerMain7002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GatewayMain9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/filter/MyLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/filter/MyRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/com/atguigu/springcloud/GatewayMain9527.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/com/atguigu/springcloud/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/com/atguigu/springcloud/filter/MyLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/com/atguigu/springcloud/filter/MyRequestFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/com/atguigu/springcloud/util/JwtUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard9001/src/main/java/com/atguigu/springcloud/HystrixDashboard9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard9001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard9001/target/classes/com/atguigu/springcloud/HystrixDashboard9001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/src/main/java/com/atguigu/springcloud/HystrixFeignMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/src/main/java/com/atguigu/springcloud/service/impl/FeignFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/target/classes/com/atguigu/springcloud/HystrixFeignMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/target/classes/com/atguigu/springcloud/service/PaymentFeignService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-feign-order80/target/classes/com/atguigu/springcloud/service/impl/FeignFallbackService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/target/classes/com/atguigu/springcloud/PaymentHystrixMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-hystrix-payment8001/target/classes/com/atguigu/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/java/com/atguigu/springcloud/PaymentMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/java/com/atguigu/springcloud/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/java/com/atguigu/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/java/com/atguigu/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/src/test/java/com/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/META-INF/cloud-providor-payment8001.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/com/atguigu/springcloud/PaymentMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/com/atguigu/springcloud/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/com/atguigu/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/com/atguigu/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/com/atguigu/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/test-classes/META-INF/cloud-providor-payment8001.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8001/target/test-classes/com/T.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/java/com/atguigu/springcloud/PaymentMain8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/java/com/atguigu/springcloud/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/java/com/atguigu/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/java/com/atguigu/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/META-INF/cloud-providor-payment8002.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/com/atguigu/springcloud/PaymentMain8002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/com/atguigu/springcloud/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/com/atguigu/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/com/atguigu/springcloud/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/com/atguigu/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providor-payment8002/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providorconsul-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providorconsul-payment8001/src/main/java/com/atguigu/springcloud/ConsulMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providorconsul-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providorconsul-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providorconsul-payment8001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providorconsul-payment8001/target/classes/com/atguigu/springcloud/ConsulMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-providorconsul-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/src/main/java/com/atguigu/springcloud/ZookeeperMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/src/main/java/com/atguigu/springcloud/config/ApplicationBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/target/classes/com/atguigu/springcloud/ZookeeperMain80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/target/classes/com/atguigu/springcloud/config/ApplicationBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8001/src/main/java/com/atguigu/springcloud/ZookeeperMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8001/target/classes/com/atguigu/springcloud/ZookeeperMain8001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8002/src/main/java/com/atguigu/springcloud/ZookeeperMain8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8002/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8002/target/classes/com/atguigu/springcloud/ZookeeperMain8002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-payment8002/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b5162239-ab11-4a5e-9cdd-be06fcc2d0e1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -469,8 +306,16 @@
       <workItem from="1650765920715" duration="19655000" />
       <workItem from="1651025507146" duration="8970000" />
       <workItem from="1651115401015" duration="15348000" />
-      <workItem from="1651215410798" duration="1021000" />
+      <workItem from="1651215410798" duration="1371000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1651216444812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651216444812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
