@@ -1,0 +1,19 @@
+server:
+  port: 80
+spring:
+  application:
+    name: cloud-order-service
+eureka:
+  client:
+    #true为注册到注册中心，false为不用注册到注册中心（将自己作为注册中心）
+    register-with-eureka: true
+    #可以检测到注册中心注册的服务信息
+    fetch-registry: true
+    service-url:
+      #注册中心
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    #服务别名修改
+    instance-id: consumer:80
+    #鼠标放上，左下角显示ip
+    prefer-ip-address: true
